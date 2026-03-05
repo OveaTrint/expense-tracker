@@ -1,5 +1,4 @@
 from datetime import datetime
-from argparse import ArgumentParser
 from utils.display import print_error, print_info
 from utils.storage import load_expenses, save_expenses
 
