@@ -4,7 +4,7 @@ from datetime import datetime
 from utils.display import print_error, print_info
 from utils.storage import load_expenses
 
-def summary(args):
+def summary_of_expenses(args):
     expenses = load_expenses()
 
     if len(expenses) == 0:
@@ -26,11 +26,11 @@ def summary(args):
             return
 
         for expense in filtered_expenses:
-            total_expenses += expense["Amount"]
+            total_expenses += expense["amount"]
 
         print_info(f"Total expenses for {month_name}: ${total_expenses:.2f}")
     else:
         for expense in expenses:
-            total_expenses += expense["Amount"]
+            total_expenses += expense["amount"]
 
         print_info(f"Total expenses: ${total_expenses:.2f}")

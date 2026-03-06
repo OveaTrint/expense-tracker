@@ -1,7 +1,7 @@
 from termcolor import colored
 
 def print_info(msg: str):
-    print(colored(msg, "yellow"))
+    print(colored(msg, "green"))
 
 
 def print_warning(msg: str):

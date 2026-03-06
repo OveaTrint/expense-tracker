@@ -1,4 +1,5 @@
 expenses.json
+.idea
 .venv
 .env
 env
