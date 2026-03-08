@@ -1,5 +1,7 @@
 # Expense Tracker CLI
-This is a CLI project designed to help users track their expenses
+This is a CLI project designed to help users track their expenses.
+
+Project Details: [roadmap.sh](https://roadmap.sh/projects/expense-tracker)
 
 ## Features
 - Add expenses through the `add` command
@@ -25,7 +27,7 @@ Set an Alias for the main program
 alias expense-tracker="python3 main.py"
 ```
 
-## Usage
+### Usage
 - Add an expense
 ```bash
   expense-tracker add --amount 20 --description "Lunch" --category "Food
