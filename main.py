@@ -35,7 +35,7 @@ delete_parser.set_defaults(func=delete_expense)
 
 list_parser = subparser.add_parser(
     name="list",
-    help="list all expenses or list expenses accoring to category",
+    help="list all expenses or list expenses according to category",
     usage="list [--category category]",
 )
 list_parser.add_argument("--category", type=str, help="category of the expense(s)")
